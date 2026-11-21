@@ -63,6 +63,7 @@ public class ParallelRunner {
         System.out.printf("Параллельность сэкономила: %d ms%n", savedMs);
     }
 
+
     public static void main(String[] args) throws InterruptedException, ExecutionException {
         //проброс сбоев, если они вдруг случатся
         List<Callable<TestResult>> suite = List.of(
